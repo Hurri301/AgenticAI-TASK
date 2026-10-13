@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "attribute": "Curvature",
+      "curvature_class": "Moderate",
+      "geometry_metrics": {
+        "heading_change_degrees": 18.4,
+        "trajectory_window_m": 100
+      },
+      "visual_evidence": ["visible bend continues across adjacent frames"]
+    },
+    {
+      "attribute": "Sight distance",
+      "sight_distance_adequate": true,
+      "visual_evidence": ["forward road path is visible beyond the curve"]
+    }
+  ]
+}

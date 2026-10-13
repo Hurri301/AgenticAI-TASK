@@ -1,0 +1,33 @@
+{
+  "Number of lanes": {
+    "col_id": "AO",
+    "categories": [
+      {"cat_id": 1, "category": "One"},
+      {"cat_id": 2, "category": "Two"},
+      {"cat_id": 3, "category": "Three"},
+      {"cat_id": 4, "category": "Four or more"},
+      {"cat_id": 5, "category": "Two and one"},
+      {"cat_id": 6, "category": "Three and two"}
+    ]
+  },
+  "Median Type": {
+    "col_id": "AA",
+    "categories": [
+      {"cat_id": 1, "category": "Safety barrier - metal"},
+      {"cat_id": 2, "category": "Safety barrier - concrete"},
+      {"cat_id": 3, "category": "Physical median width >=20m"},
+      {"cat_id": 4, "category": "Physical median width 10 to <20m"},
+      {"cat_id": 5, "category": "Physical median width 5 to <10m"},
+      {"cat_id": 6, "category": "Physical median width 1 to <5m"},
+      {"cat_id": 7, "category": "Physical median width 0 to <1m"},
+      {"cat_id": 8, "category": "Continuous central turning lane"},
+      {"cat_id": 9, "category": "Flexible posts"},
+      {"cat_id": 10, "category": "Central hatching >1m"},
+      {"cat_id": 11, "category": "Centre line"},
+      {"cat_id": 12, "category": "Safety barrier - motorcycle friendly"},
+      {"cat_id": 13, "category": "One way"},
+      {"cat_id": 14, "category": "Wide centre line 0.3m to 1m"},
+      {"cat_id": 15, "category": "Safety barrier - wire rope"}
+    ]
+  }
+}

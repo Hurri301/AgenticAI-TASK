@@ -1,0 +1,22 @@
+{
+  "description": "Free text for describing with natural language the scene. Relevant objects are picked for the next steps.",
+  "driver": [
+    {
+      "irap_category": "Tree >=10cm",
+      "description": "A set of large trees",
+      "dino_label": "tree"
+    },
+    {
+      "irap_category": "Safety barrier - metal",
+      "description": "metal guardrail",
+      "dino_label": "guardrail"
+    }
+  ],
+  "passenger": [
+    {
+      "irap_category": "Rigid structure or building",
+      "description": "retaining wall",
+      "dino_label": "wall"
+    }
+  ]
+}

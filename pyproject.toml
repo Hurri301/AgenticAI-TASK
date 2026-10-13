@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mm-link"
+version = "0.1.0"
+description = "2D-3D linking utilities for Ladybug panoramas and LiDAR"
+requires-python = ">=3.9"
+dependencies = [
+  "Pillow>=9.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

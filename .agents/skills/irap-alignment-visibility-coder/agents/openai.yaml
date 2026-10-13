@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Alignment Visibility Coder"
+  short_description: "Code curvature and sight distance."
+  default_prompt: "Code iRAP alignment and visibility attributes using panorama and trajectory context."

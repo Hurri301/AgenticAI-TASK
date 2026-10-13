@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "attribute": "Number of lanes",
+      "lane_count": 2,
+      "evidence": ["two through lanes visible in coded direction"],
+      "excluded_features": ["short turning lane"]
+    },
+    {
+      "attribute": "Median Type",
+      "label": "Centre line",
+      "evidence": ["single centre line separates opposing traffic"]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "cluster",
+  "las": "data/point_cloud/cloud_test.las",
+  "outdir": "artifacts/pointcloud_workflows",
+  "cluster_prefix": "nonground_clusters",
+  "indices_file": "artifacts/cmp_current.not-ground.idx.bin",
+  "distance_threshold_m": 0.35,
+  "min_cluster_size": 8,
+  "cluster_backend": "auto"
+}

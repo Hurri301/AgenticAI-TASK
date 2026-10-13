@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Carriageway Layout Coder"
+  short_description: "Code lanes and median layout."
+  default_prompt: "Code iRAP carriageway layout attributes from panorama and segment context."

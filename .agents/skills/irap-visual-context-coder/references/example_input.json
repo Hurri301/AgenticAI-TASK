@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "attribute": "Area type",
+      "urban_context": false,
+      "evidence": ["open rural frontage", "no continuous buildings"]
+    },
+    {
+      "attribute": "Street lighting",
+      "lighting_present": true,
+      "evidence": ["lamp heads visible on roadside poles"]
+    },
+    {
+      "attribute": "Service road",
+      "service_road_present": false,
+      "evidence": ["no separate parallel frontage road"]
+    },
+    {
+      "attribute": "Delineation",
+      "delineation_adequate": true,
+      "evidence": ["clear centre line and edge line"]
+    }
+  ]
+}

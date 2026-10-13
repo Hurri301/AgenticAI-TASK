@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Roadside Severity Coder"
+  short_description: "Code iRAP roadside RS_D/RS_O with risk-priority pairing"
+  default_prompt: "Use $irap-roadside-severity-coder to compute roadside severity RS_D/RS_O codes for driver, passenger, or both sides by chaining detection, projection, distance, and explainability outputs."

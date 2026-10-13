@@ -1,0 +1,57 @@
+{
+  "image_id": "ladybug_panoramic_000108.jpg",
+  "num_candidate_points": 113,
+  "num_projected_points_before": 113,
+  "num_projected_points_after": 113,
+  "active_params": [
+    "yaw",
+    "roll",
+    "ty"
+  ],
+  "optimizer": "Powell",
+  "optimizer_success": true,
+  "optimizer_message": "Optimization terminated successfully.",
+  "optimizer_nit": 4,
+  "optimizer_nfev": 229,
+  "score_stat": "median",
+  "before_score": 3.525612209019338,
+  "before_rms_distance_px": 4.244637308075829,
+  "after_score": 1.3197191358541207,
+  "after_rms_distance_px": 1.9670506811069706,
+  "delta_angles_deg": {
+    "roll": 0.22390719788857788,
+    "pitch": 0.0,
+    "yaw": 0.17756866793679676
+  },
+  "delta_translation_m": {
+    "tx": 0.0,
+    "ty": 0.047253744454825,
+    "tz": 0.0
+  },
+  "T_delta": [
+    [
+      0.9999951976139873,
+      -0.0030991292779330077,
+      1.2111204191580336e-05,
+      0.0
+    ],
+    [
+      0.0030991529427584785,
+      0.9999875617495236,
+      -0.003907889107958287,
+      0.047253744454825
+    ],
+    [
+      0.0,
+      0.003907907875240406,
+      0.9999923640988658,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ]
+}

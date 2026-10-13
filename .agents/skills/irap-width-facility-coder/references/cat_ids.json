@@ -1,0 +1,40 @@
+{
+  "Lane width": {
+    "col_id": "AP",
+    "categories": [
+      {"cat_id": 1, "category": "Wide >=3.25m"},
+      {"cat_id": 2, "category": "Medium 2.75m to <3.25m"},
+      {"cat_id": 3, "category": "Narrow 0m to <2.75m"}
+    ]
+  },
+  "Paved shoulder - drivers side": {
+    "col_id": "AH",
+    "categories": [
+      {"cat_id": 1, "category": "Wide >=2.4m"},
+      {"cat_id": 2, "category": "Medium 1m to <2.4m"},
+      {"cat_id": 3, "category": "Narrow 0m to <1m"},
+      {"cat_id": 4, "category": "None"}
+    ]
+  },
+  "Paved shoulder - passenger side": {
+    "col_id": "AI",
+    "categories": [
+      {"cat_id": 1, "category": "Wide >=2.4m"},
+      {"cat_id": 2, "category": "Medium 1m to <2.4m"},
+      {"cat_id": 3, "category": "Narrow 0m to <1m"},
+      {"cat_id": 4, "category": "None"}
+    ]
+  },
+  "Sidewalk - passenger side": {
+    "col_id": "BE",
+    "categories": [
+      {"cat_id": 1, "category": "Sidewalk with barrier"},
+      {"cat_id": 2, "category": "Sidewalk >=3m from road"},
+      {"cat_id": 3, "category": "Sidewalk 1m to <3m from road"},
+      {"cat_id": 4, "category": "Sidewalk 0m to <1m from road"},
+      {"cat_id": 5, "category": "None"},
+      {"cat_id": 6, "category": "Informal path >=1m"},
+      {"cat_id": 7, "category": "Informal path 0m to <1m"}
+    ]
+  }
+}

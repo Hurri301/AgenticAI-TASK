@@ -1,0 +1,10 @@
+{
+  "mode": "segment",
+  "las": "data/point_cloud/cloud_test.las",
+  "outdir": "artifacts/pointcloud_workflows",
+  "segment_prefix": "cloud_test_segmented",
+  "segment_flags": {
+    "road_max_roughness_m": 0.08,
+    "road_flat_threshold_m": 0.1
+  }
+}

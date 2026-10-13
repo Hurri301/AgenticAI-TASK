@@ -1,0 +1,18 @@
+{
+  "Curvature": {
+    "col_id": "AQ",
+    "categories": [
+      {"cat_id": 1, "category": "Straight or gently curving"},
+      {"cat_id": 2, "category": "Moderate"},
+      {"cat_id": 3, "category": "Sharp"},
+      {"cat_id": 4, "category": "Very sharp"}
+    ]
+  },
+  "Sight distance": {
+    "col_id": "BJ",
+    "categories": [
+      {"cat_id": 1, "category": "Adequate"},
+      {"cat_id": 2, "category": "Poor"}
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "mode": "points_to_bbox",
+  "defaults": {
+    "las": "data/point_cloud/cloud_test.las",
+    "visualize": false
+  },
+  "items": [
+    {
+      "request_id": "cluster-17",
+      "cluster_algorithm": "euclidean",
+      "indices": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

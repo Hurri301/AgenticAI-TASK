@@ -1,0 +1,20 @@
+{
+  "mode": "roadside_distance_to_road",
+  "las": "data/point_cloud/cloud_test.las",
+  "outdir": "artifacts/pointcloud_workflows",
+  "segmentation_metadata": "artifacts/cmp_current.labels.json",
+  "reference_class": "road",
+  "distance_backend": "auto",
+  "objects": [
+    {
+      "object_id": "road-self-check",
+      "label": "road reference set",
+      "indices_file": "artifacts/cmp_current.road.idx.bin"
+    },
+    {
+      "object_id": "ground-example",
+      "label": "full ground set",
+      "indices_file": "artifacts/cmp_current.ground.idx.bin"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "side": "both",
+  "images": [
+    {
+      "image": "data/images/ladybug_13185920_20200219_095143_Portugal_000_Panoramic_108.png",
+      "image_id": "ladybug_panoramic_000108.jpg",
+      "poses": "data/Trajectories/01_N3.CSV",
+      "extrinsics": "data/Calibration/calib1.xml",
+      "las": "data/point_cloud/cloud_test.las"
+    }
+  ],
+  "groundingdino": {
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "max_detections_per_hint": 3,
+    "dedup_iou": 0.7,
+    "semantic_label_overrides": {
+      "Safety barrier - metal": "guardrail",
+      "Upwards slope - no roll over": "slope"
+    }
+  },
+  "projection_defaults": {
+    "pose_model": "applanix_ned321",
+    "invert_extrinsics": true,
+    "flip_pano_u": true
+  },
+  "distance_defaults": {
+    "reference_class": "road",
+    "distance_backend": "auto",
+    "outdir": "artifacts/pointcloud_workflows"
+  },
+  "work_dir": "artifacts/irap_roadside_severity"
+}

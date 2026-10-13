@@ -1,0 +1,63 @@
+rank,distance_category,object_category
+1,Any,Cliff
+2,0 to <1m,Tree >=10cm
+3,0 to <1m,"Rigid sign, post or pole >=10cm"
+4,0 to <1m,Rigid structure or building
+5,0 to <1m,Unprotected safety barrier end
+6,0 to <1m,Low rigid object >=20cm high
+7,0 to <1m,Aggressive vertical face
+8,0 to <1m,Deep drainage ditch
+9,1 to <5m,Tree >=10cm
+10,1 to <5m,"Rigid sign, post or pole >=10cm"
+11,1 to <5m,Rigid structure or building
+12,1 to <5m,Unprotected safety barrier end
+13,1 to <5m,Low rigid object >=20cm high
+14,0 to <1m,Upwards slope - roll over
+15,0 to <1m,Downwards slope
+16,1 to <5m,Aggressive vertical face
+17,1 to <5m,Deep drainage ditch
+18,0 to <1m,Upwards slope - no roll over
+19,0 to <1m,Upwards slope - roll over
+20,1 to <5m,Downwards slope
+21,0 to <1m,Upwards slope - no roll over
+22,0 to <1m,Semi-rigid structure or building
+23,1 to <5m,Semi-rigid structure or building
+24,5 to <10m,Tree >=10cm
+25,5 to <10m,"Rigid sign, post or pole >=10cm"
+26,5 to <10m,Rigid structure or building
+27,5 to <10m,Unprotected safety barrier end
+28,5 to <10m,Low rigid object >=20cm high
+29,5 to <10m,Aggressive vertical face
+30,5 to <10m,Upwards slope - roll over
+31,5 to <10m,Deep drainage ditch
+32,5 to <10m,Downwards slope
+33,5 to <10m,Safety barrier - concrete
+34,5 to <10m,Upwards slope - no roll over
+35,0 to <1m,Safety barrier - metal
+36,0 to <1m,Safety barrier - motorcycle friendly
+37,1 to <5m,Safety barrier - concrete
+38,1 to <5m,Semi-rigid structure or building
+39,1 to <5m,Safety barrier - metal
+40,1 to <5m,Safety barrier - motorcycle friendly
+41,1 to <5m,Safety barrier - wire rope
+42,1 to <5m,Safety barrier - wire rope
+43,>=10m,Tree >=10cm
+44,>=10m,"Rigid sign, post or pole >=10cm"
+45,>=10m,Rigid structure or building
+46,>=10m,Unprotected safety barrier end
+47,>=10m,Low rigid object >=20cm high
+48,>=10m,Aggressive vertical face
+49,>=10m,Deep drainage ditch
+50,5 to <10m,Safety barrier - concrete
+51,>=10m,Upwards slope - roll over
+52,>=10m,Downwards slope
+53,5 to <10m,Safety barrier - metal
+54,5 to <10m,Safety barrier - motorcycle friendly
+55,>=10m,Upwards slope - no roll over
+56,>=10m,No object
+57,5 to <10m,Safety barrier - wire rope
+58,>=10m,Semi-rigid structure or building
+59,>=10m,Safety barrier - concrete
+60,>=10m,Safety barrier - metal
+61,>=10m,Safety barrier - motorcycle friendly
+62,>=10m,Safety barrier - wire rope

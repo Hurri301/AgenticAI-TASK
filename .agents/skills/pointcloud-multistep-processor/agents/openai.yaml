@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pointcloud Multistep Processor"
+  short_description: "Chain 3D point-cloud workflows with traceability"
+  default_prompt: "Use $pointcloud-multistep-processor to run multi-step 3D point-cloud processing workflows and return traceable outputs."

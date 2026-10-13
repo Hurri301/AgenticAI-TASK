@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Access Points Coder"
+  short_description: "Code property access points from road-image sequence evidence."
+  default_prompt: "Code iRAP property access points for the road segment."

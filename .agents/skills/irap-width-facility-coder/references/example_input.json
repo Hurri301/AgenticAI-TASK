@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "attribute": "Lane width",
+      "width_m": 3.1,
+      "measurement_source": "LAS boundary measurement",
+      "evidence": ["lane edge and centre line projected to point cloud"]
+    },
+    {
+      "attribute": "Paved shoulder - passenger side",
+      "width_m": 0.8,
+      "measurement_source": "visual estimate",
+      "evidence": ["narrow paved strip outside lane edge"]
+    },
+    {
+      "attribute": "Sidewalk - passenger side",
+      "side": "passenger",
+      "semantic_inference_source": "vlm",
+      "passenger_crop_reviewed": true,
+      "passenger_context_crop": "artifacts/sidewalk_passenger_crops/example_passenger_context.png",
+      "passenger_focus_crop": "artifacts/sidewalk_passenger_crops/example_passenger_focus.png",
+      "continuous_segment_reviewed": true,
+      "facility_present": true,
+      "continuous_over_segment": true,
+      "facility_type": "sidewalk",
+      "purpose_built": true,
+      "all_weather_surface": true,
+      "distance_from_road_m": 1.6,
+      "barrier_present": false,
+      "barrier_restrains_vehicle": false,
+      "curb_only": true,
+      "distance_reference": "nearest driving lane edge to near facility edge, including shoulder/parking",
+      "evidence": ["raised pedestrian path on passenger side"]
+    }
+  ]
+}

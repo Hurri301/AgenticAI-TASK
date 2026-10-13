@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Multiagent Pipeline Planner"
+  short_description: "Plan full iRAP multiagent workflows"
+  default_prompt: "Use $irap-multiagent-pipeline-planner to design a complete iRAP multiagent pipeline and flowchart."

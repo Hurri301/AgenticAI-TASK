@@ -1,0 +1,11 @@
+{
+  "Property access points": {
+    "col_id": "AN",
+    "categories": [
+      {"cat_id": 1, "category": "Commercial access >=1"},
+      {"cat_id": 2, "category": "Residential access >=3"},
+      {"cat_id": 3, "category": "Residential access <3"},
+      {"cat_id": 4, "category": "None"}
+    ]
+  }
+}

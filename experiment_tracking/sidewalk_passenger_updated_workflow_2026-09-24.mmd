@@ -1,0 +1,51 @@
+flowchart TD
+    A[Panorama image<br/>+ passenger-side crop<br/>+ adjacent-frame crops] --> B[Detect candidate boundaries]
+
+    B --> B1[Driving-lane edge]
+    B --> B2[Facility edge / candidate region]
+    B --> B3[Barrier or separator candidate]
+
+    B1 --> C[Semantic facility verification]
+    B2 --> C
+    B3 --> C
+
+    C --> C1{What is on the passenger side?}
+    C1 -->|Formal pedestrian facility| D[Sidewalk candidate]
+    C1 -->|Pedestrian-use path| E[Informal path candidate]
+    C1 -->|Paved strip for vehicles| F[Paved shoulder / parking / driveway]
+    C1 -->|Grass, dirt, verge, or no facility| G[None candidate]
+
+    D --> H[Check adjacent-frame continuity]
+    E --> H
+    F --> H
+    G --> H
+
+    H --> H1{Evidence agrees across frames?}
+    H1 -->|No / unclear| R[Review required<br/>do not force Cat 5]
+    H1 -->|Yes| I{Metric evidence required?}
+
+    I -->|No| J[Visual semantic code]
+    I -->|Yes| K[Select road-edge and facility-edge points]
+    K --> L[2D-to-3D projection]
+    L --> M[LAS boundary measurement]
+    M --> N[Compute separation band]
+
+    J --> O[Apply iRAP Cat-ID rules]
+    N --> O
+    O --> P[Cat ID + confidence + evidence + trace]
+
+    R --> Q[Manual review queue]
+
+    classDef input fill:#e8f1fb,stroke:#3973a8,color:#12344d;
+    classDef detect fill:#edf7ed,stroke:#4b8f4b,color:#183d18;
+    classDef semantic fill:#fff4df,stroke:#c58b27,color:#533b08;
+    classDef metric fill:#f2eafe,stroke:#8057b8,color:#32184f;
+    classDef output fill:#e8f5f2,stroke:#27856f,color:#123c33;
+    classDef review fill:#fde9e7,stroke:#c94b42,color:#5c1712;
+
+    class A input;
+    class B,B1,B2,B3 detect;
+    class C,C1,D,E,F,G,H,H1,I,J,O semantic;
+    class K,L,M,N metric;
+    class P output;
+    class R,Q review;

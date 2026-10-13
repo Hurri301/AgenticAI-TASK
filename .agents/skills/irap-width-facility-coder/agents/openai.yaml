@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Width Facility Coder"
+  short_description: "Code width and side facilities."
+  default_prompt: "Code iRAP width and side-facility attributes using image and geometry evidence."

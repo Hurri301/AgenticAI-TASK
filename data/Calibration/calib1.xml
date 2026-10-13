@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<IMU2LB_Extrinsics type_id="opencv-matrix">
+  <rows>4</rows>
+  <cols>4</cols>
+  <dt>d</dt>
+  <data>
+    -9.9281972903487059e-01 1.1961952851485941e-01
+    -3.8625181712275422e-04 6.1700004339218140e-01
+    1.1961697234498914e-01 9.9276454843883755e-01
+    -1.0500975955059447e-02 1.1000000871717930e-02
+    -8.7266473565250635e-04 -1.0471778902071960e-02
+    -9.9994480611854897e-01 -7.0199996232986450e-01 0. 0. 0. 1.</data></IMU2LB_Extrinsics>
+<DeltaX>6.1700004339218140e-01</DeltaX>
+<DeltaY>1.1000000871717930e-02</DeltaY>
+<DeltaZ>-7.0199996232986450e-01</DeltaZ>
+<Roll>5.9999996423721313e-01</Roll>
+<Pitch>-5.0000011920928955e-02</Pitch>
+<Heading>6.8699998855590820e+00</Heading>
+<ReprojectionError>3.1443844213957530e+00</ReprojectionError>
+</opencv_storage>

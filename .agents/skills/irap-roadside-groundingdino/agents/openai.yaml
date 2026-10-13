@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Roadside GroundingDINO"
+  short_description: "Map iRAP roadside objects from images or natural-language description JSON"
+  default_prompt: "Use $irap-roadside-groundingdino to map iRAP roadside object categories and generate GroundingDINO-ready prompts from images or description JSON."

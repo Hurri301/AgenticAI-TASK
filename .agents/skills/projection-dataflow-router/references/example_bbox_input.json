@@ -1,0 +1,31 @@
+{
+  "mode": "bbox_to_points",
+  "defaults": {
+    "las": "data/point_cloud/cloud_test.las",
+    "visualize": false
+  },
+  "bboxes": [
+    {
+      "id": "bbox-001",
+      "label": "roadside-object",
+      "source": "detector-A",
+      "bbox": [
+        1106,
+        436,
+        1109,
+        440
+      ]
+    },
+    {
+      "id": "bbox-002",
+      "label": "expanded-region",
+      "source": "manual",
+      "bbox": [
+        1100,
+        430,
+        1115,
+        450
+      ]
+    }
+  ]
+}

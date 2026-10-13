@@ -1,0 +1,12 @@
+{
+  "mode": "distance",
+  "las": "data/point_cloud/cloud_test.las",
+  "outdir": "artifacts/pointcloud_workflows",
+  "pairs": [
+    {
+      "pair_id": "inline-small-example",
+      "indices_a": [0, 1, 2],
+      "indices_b": [100, 101, 102]
+    }
+  ]
+}

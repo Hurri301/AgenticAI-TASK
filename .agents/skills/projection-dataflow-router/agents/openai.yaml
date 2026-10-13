@@ -1,0 +1,4 @@
+interface:
+  display_name: "Projection Dataflow Router"
+  short_description: "Route 2D-3D projections with traceable JSON outputs"
+  default_prompt: "Use $projection-dataflow-router to route bbox-to-points or points-to-bbox projections and return traceable JSON."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Panoramic Road Safety Describer"
+  short_description: "Side-aware road safety descriptions in JSON"
+  default_prompt: "Use $panoramic-road-safety-describer to produce concise iRAP-aligned safety descriptions for panoramic road images and return traceable JSON."

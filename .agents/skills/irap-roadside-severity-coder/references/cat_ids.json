@@ -1,0 +1,102 @@
+{
+  "distance": {
+    "item": "Roadside severity - side distance",
+    "col_id": "RS_D",
+    "categories": [
+      {
+        "cat_id": 1,
+        "category": "0 to <1m",
+        "category_description": "Objects with effective distance of 0m to less than 1m from the edge line."
+      },
+      {
+        "cat_id": 2,
+        "category": "1 to <5m",
+        "category_description": "Objects with effective distance of 1m to less than 5m from the edge line."
+      },
+      {
+        "cat_id": 3,
+        "category": "5 to <10m",
+        "category_description": "Objects with effective distance of 5m to less than 10m from the edge line."
+      },
+      {
+        "cat_id": 4,
+        "category": ">=10m",
+        "category_description": "Objects with effective distance equal or greater than 10m from the edge line."
+      }
+    ]
+  },
+  "object": {
+    "item": "Roadside severity - side object",
+    "col_id": "RS_O",
+    "categories": [
+      {
+        "cat_id": 10,
+        "category": "Cliff"
+      },
+      {
+        "cat_id": 11,
+        "category": "Tree >=10cm"
+      },
+      {
+        "cat_id": 12,
+        "category": "Rigid sign, post or pole >=10cm"
+      },
+      {
+        "cat_id": 15,
+        "category": "Unprotected safety barrier end"
+      },
+      {
+        "cat_id": 5,
+        "category": "Aggressive vertical face"
+      },
+      {
+        "cat_id": 6,
+        "category": "Upwards slope - roll over"
+      },
+      {
+        "cat_id": 8,
+        "category": "Deep drainage ditch"
+      },
+      {
+        "cat_id": 9,
+        "category": "Downwards slope"
+      },
+      {
+        "cat_id": 16,
+        "category": "Low rigid object >=20cm high"
+      },
+      {
+        "cat_id": 13,
+        "category": "Rigid structure or building"
+      },
+      {
+        "cat_id": 7,
+        "category": "Upwards slope - no roll over"
+      },
+      {
+        "cat_id": 14,
+        "category": "Semi-rigid structure or building"
+      },
+      {
+        "cat_id": 2,
+        "category": "Safety barrier - concrete"
+      },
+      {
+        "cat_id": 1,
+        "category": "Safety barrier - metal"
+      },
+      {
+        "cat_id": 4,
+        "category": "Safety barrier - wire rope"
+      },
+      {
+        "cat_id": 3,
+        "category": "Safety barrier - motorcycle friendly"
+      },
+      {
+        "cat_id": 17,
+        "category": "No object"
+      }
+    ]
+  }
+}

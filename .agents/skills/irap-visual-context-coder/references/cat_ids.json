@@ -1,0 +1,30 @@
+{
+  "Area type": {
+    "col_id": "V",
+    "categories": [
+      {"cat_id": 1, "category": "Rural"},
+      {"cat_id": 2, "category": "Urban"}
+    ]
+  },
+  "Street lighting": {
+    "col_id": "AW",
+    "categories": [
+      {"cat_id": 1, "category": "Not present"},
+      {"cat_id": 2, "category": "Present"}
+    ]
+  },
+  "Service road": {
+    "col_id": "BF",
+    "categories": [
+      {"cat_id": 1, "category": "Not present"},
+      {"cat_id": 2, "category": "Present"}
+    ]
+  },
+  "Delineation": {
+    "col_id": "AV",
+    "categories": [
+      {"cat_id": 1, "category": "Adequate"},
+      {"cat_id": 2, "category": "Poor"}
+    ]
+  }
+}

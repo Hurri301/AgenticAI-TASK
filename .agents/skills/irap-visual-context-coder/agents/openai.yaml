@@ -1,0 +1,4 @@
+interface:
+  display_name: "iRAP Visual Context Coder"
+  short_description: "Code visual/context iRAP road attributes from panorama evidence."
+  default_prompt: "Code iRAP visual context attributes from the provided road image evidence."

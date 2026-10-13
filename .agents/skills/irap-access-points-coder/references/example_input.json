@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "attribute": "Property access points",
+      "commercial_present": false,
+      "residential_count": 2,
+      "candidate_accesses": [
+        {"type": "residential", "frame_id": "1201", "evidence": "driveway"},
+        {"type": "residential", "frame_id": "1221", "evidence": "garage access"}
+      ],
+      "rejected_candidates": [
+        {"type": "side_road", "reason": "public road intersection"}
+      ]
+    }
+  ]
+}
